@@ -1,0 +1,22 @@
+.post {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem 5%;
+    transition: transform 200ms ease-in-out;
+}
+
+.post:hover {
+    transform: scale(1.05);
+}
+
+.post__image-container {
+    display: block;
+    height: 200px;
+    width: 100%;
+}
+
+.post__image {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
